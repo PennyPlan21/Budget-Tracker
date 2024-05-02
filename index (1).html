@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PennyPlan</title
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>PennyPlan</h1>
+    <p>Take control of your finances with our easy-to-use budget tracker!</p>
+    <text id="start-app">Start Your Journey</text
+nu<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Budget Tracker</h2>
+    <div id="budget-container">
+        <h2>Budget</h2>
+        <input type="number" id="budget-amount" placeholder="Enter your budget">
+        <select id="budget-duration">
+            <option value="weekly">Weekly</option>
+            <option value="monthly">Monthly</option>
+        </select>
+        <button id="set-budget">Set Budget</button>
+        <br>
+        <h2>Expenses</h2>
+        <input type="text" id="expense-name" placeholder="Expense Name">
+        <input type="number" id="expense-amount" placeholder="Expense Amount">
+        <button id="add-expense">Add Expense</button>
+        <br>
+        <div id="expenses-list">
+            <h3>Expense List</h3>
+            <ul>
+                </ul>
+        </div>
+        <button id="reset-button">Reset Budget</button>
+    </div>
+    <div id="summary-container">
+        <h2>Summary</h2>
+        <p id="total-budget">Total Budget: $<span id="budget-number">0</span></p>
+        <p id="budget-duration-text">Budget Duration: <span id="duration-text"></span></p>
+        <p id="total-expenses">Total Expenses: $<span id="expenses-number">0</span></p>
+        <p id="remaining-balance">Remaining Balance: $<span id="balance-number">0</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
